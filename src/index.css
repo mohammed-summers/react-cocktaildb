@@ -172,11 +172,15 @@ Navbar
 
 @media screen and (max-width: 451px) {
   .nav-links a {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
-  .nav-links {
+  .nav-center img {
+    width: 80%;
+  }
+
+  /* .nav-links {
     margin-left: 1.5rem;
-  }
+  } */
 }
 
 /* 
