@@ -150,6 +150,7 @@ Navbar
 .nav-links {
   display: flex;
   align-items: center;
+  margin-left: 1rem;
 }
 .nav-links a {
   text-transform: capitalize;
@@ -170,12 +171,11 @@ Navbar
 }
 
 @media screen and (max-width: 451px) {
-  .nav-links {
-    margin-left: 5rem;
+  .nav-links a {
+    font-size: 1rem;
   }
-
-  .nav-center {
-    margin: 0;
+  .nav-links {
+    margin-left: 1.5rem;
   }
 }
 
